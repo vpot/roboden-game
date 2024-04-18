@@ -33,6 +33,7 @@ If you're playing a browser version of the game, please use Chrome or some other
 ```bash
 git clone --depth 1 --recurse-submodules --shallow-submodules https://github.com/quasilyte/roboden-game.git
 cd roboden-game/src
+# export CGO_ENABLED=1 # CGO is need
 go run ./cmd/game --data ../roboden_data
 ```
 
