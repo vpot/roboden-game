@@ -45,6 +45,18 @@ body {
 <script src="wasm_exec.js"></script>
 
 <script>
+function handleOrientationChange() {
+  if (window.matchMedia("(orientation: portrait)").matches && screen.height > screen.width) {
+    screen.orientation.lock('landscape').catch(err => {
+      console.error(err);
+    });
+  }
+}
+// 监听方向变化事件
+window.addEventListener('orientationchange', handleOrientationChange);
+// 初始检查
+handleOrientationChange();
+
 (function () {
     let spinnerInterval = null;
 

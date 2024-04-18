@@ -17,7 +17,7 @@
 ##boot.load_music : 加载音乐中
 ##boot.load_shaders : 编译着色器中
 ##boot.load_extra : 初始化游戏数据中
-##boot.steam_sync : Steam sync
+##boot.steam_sync : Steam同步
 ##boot.almost_there : Almost there
 
 ##menu.submit.title : 发送数据中，请等待
@@ -33,98 +33,99 @@
 ##menu.main.leaderboard : 排行榜
 
 ##menu.leaderboard.placeholder : 加载数据中...
-##menu.leaderboard.fetch_error : Can't load leaderboard
-##menu.leaderboard.classic : Classic
-##menu.leaderboard.blitz : Blitz
-##menu.leaderboard.arena : Arena
-##menu.leaderboard.inf_arena : Infinite Arena
-##menu.leaderboard.reverse : Reverse
-##menu.leaderboard.season : Season
-##menu.leaderboard.num_players : Players
-##menu.leaderboard.col_rank : rank
-##menu.leaderboard.col_name : name
-##menu.leaderboard.col_platform : clan
-##menu.leaderboard.col_difficulty : difficulty
-##menu.leaderboard.col_score : score
-##menu.leaderboard.col_time : time
+##menu.leaderboard.fetch_error : 不能加载排行榜
+##menu.leaderboard.classic : 经典
+##menu.leaderboard.blitz : 突袭
+##menu.leaderboard.arena : 竞技
+##menu.leaderboard.inf_arena : 无限竞技
+##menu.leaderboard.reverse : 反转
+##menu.leaderboard.season : 季度
+##menu.leaderboard.num_players : 多玩家
+##menu.leaderboard.col_rank : 等级
+##menu.leaderboard.col_name : 名字
+##menu.leaderboard.col_platform : 帮派
+##menu.leaderboard.col_difficulty : 困难
+##menu.leaderboard.col_score : 分数
+##menu.leaderboard.col_time : 时间
 
 ##menu.save_schema : 保存
 ##menu.load_schema : 加载
-##menu.load_schema_drones : Load Drones
-##menu.rename_schema : Rename
-##menu.schema_name : Schema Name
-##menu.empty_schema_slot : Empty schema slot
+##menu.load_schema_drones : 装载无人机
+##menu.rename_schema : 重命名
+##menu.schema_name : 情景名称
+##menu.empty_schema_slot : 空情景插件
 
-##menu.schema.difficulty : Difficulty
-##menu.schema.colony : Colony
-##menu.schema.turret : Turret
-##menu.schema.drones : Drones
+##menu.schema.difficulty : 困难
+##menu.schema.colony : 殖民地
+##menu.schema.turret : 塔楼
+##menu.schema.drones : 无人机
 
 ##menu.lobby.schema_rand
-Use a random drones combination.
+使用随机无人机组合。
 
 ##menu.lobby.schema_edit
-Open the schema editor.
+打开情景编辑器。
 
-You can save the current game settings and restore them later.
+您可以保存当前的游戏设置，稍后再进行恢复。
 
 Schemas can be used to save and load your favorite drone build.
+情景可以用于保存和加载您最喜欢的无人机构建。
 
-##menu.save_replay : Save Replay
-##menu.publish_score : Publish Score
-##menu.publish_high_score : Publish Highscores
-##menu.save : Save
-##menu.set_user_name : Change Player Name
-##menu.user_name : Player Name
+##menu.save_replay : 保存重播
+##menu.publish_score : 发布分数
+##menu.publish_high_score : 发布最高分
+##menu.save : 保存
+##menu.set_user_name : 变更玩家名称
+##menu.user_name : 玩家名称
 ##menu.user_name_rules
-* Only English letters, digits, spaces, and underscores are allowed
-* Has to contain at least one non-space character
-* No longer than 20 characters
-* Empty username => can't submit scores
+* 只允许使用英文字母、数字、空格和下划线
+* 必须至少包含一个非空格字符
+* 不超过20个字符
+* 空用户名=>无法提交分数
 
-##tutorial.reward : Score reward
-##tutorial.reward_claimed : claimed
+##tutorial.reward : 得分奖励
+##tutorial.reward_claimed : 声称
 
-##menu.play.intro_mission : Intro Mission
-##menu.play.classic : Classic Mode
-##menu.play.blitz : Blitz Mode
-##menu.play.arena : Arena Mode
-##menu.play.inf_arena : Infinite Arena Mode
-##menu.play.reverse : Reverse Mode
+##menu.play.intro_mission : 教程介绍
+##menu.play.classic : 经典模式
+##menu.play.blitz : 突袭模式
+##menu.play.arena : 竞技模式
+##menu.play.inf_arena : 无限竞技
+##menu.play.reverse : 反转模式
 
-##menu.profile.achievements : Achievements
-##menu.profile.stats : Stats
-##menu.profile.progress : Progress
-##menu.profile.dronebook : Drone Collection
-##menu.profile.watch_replay : Watch Replay
+##menu.profile.achievements : 成就
+##menu.profile.stats : 统计
+##menu.profile.progress : 进度
+##menu.profile.dronebook : 无人机收集
+##menu.profile.watch_replay : 观看重播
 
-##menu.replace.version_mismatch : version mismatch
-##menu.replay.game_result : Result
-##menu.replay.last_played : Last played
-##menu.replay.empty : Empty Slot
-##menu.replay.notice : Replays are experimental and lack convenience options
+##menu.replace.version_mismatch : 版本不匹配
+##menu.replay.game_result : 结果
+##menu.replay.last_played : 最后玩过
+##menu.replay.empty : 空插件
+##menu.replay.notice : 重播是实验性的，缺乏方便的选择
 
-##menu.profile.stats.totalscore : Total score
-##menu.profile.stats.classic_highscore : Classic highest score
-##menu.profile.stats.blitz_highscore : Blitz highest score
-##menu.profile.stats.arena_highscore : Arena highest score
-##menu.profile.stats.inf_arena_highscore : Infinite arena highest score
-##menu.profile.stats.reverse_highscore : Reverse highest score
+##menu.profile.stats.totalscore : 总得分
+##menu.profile.stats.classic_highscore : 经典最高得分
+##menu.profile.stats.blitz_highscore : 突袭最高得分
+##menu.profile.stats.arena_highscore : 竞技最高得分
+##menu.profile.stats.inf_arena_highscore : 无限竞技最高得分
+##menu.profile.stats.reverse_highscore : 反转最高得分
 
-##menu.profile.progress.achievements : Achievements
-##menu.profile.progress.modes_unlocked : Game modes unlocked
-##menu.profile.progress.cores_unlocked : Colonies unlocked
-##menu.profile.progress.turrets_unlocked : Turrets unlocked
-##menu.profile.progress.drones_unlocked : Tier 2 drones unlocked
-##menu.profile.progress.t3drones_seen : Tier 3 drones discovered
-##menu.profile.progress.extra_options_unlocked : Extra options unlocked
+##menu.profile.progress.achievements : 成就
+##menu.profile.progress.modes_unlocked : 已解锁游戏模式
+##menu.profile.progress.cores_unlocked : 已解锁殖民地
+##menu.profile.progress.turrets_unlocked : 已解锁炮楼
+##menu.profile.progress.drones_unlocked : 已解锁Tier2无人机
+##menu.profile.progress.t3drones_seen : 已发现Tier3无人机
+##menu.profile.progress.extra_options_unlocked : 已解锁扩展选项
 
 ##menu.tier : 层叠
 ##menu.back : 返回
 ##menu.next : 下一步
 ##menu.lobby_back : 完成
 
-##menu.options.gameplay : 开始
+##menu.options.gameplay : 游戏
 ##menu.options.sound : 声音
 ##menu.options.graphics : 图像
 ##menu.options.extra : 扩展
@@ -141,7 +142,7 @@ Schemas can be used to save and load your favorite drone build.
 
 ##menu.option.on : 开
 ##menu.option.off : 关
-##menu.option.locked : Locked option
+##menu.option.locked : 已锁选项
 
 ##menu.option.very_low : 很贫穷
 ##menu.option.low : 贫穷
@@ -172,26 +173,26 @@ Schemas can be used to save and load your favorite drone build.
 ##menu.option.small : 小
 ##menu.option.big : 大
 
-##menu.options.hint_mode : In-game tooltips
-##menu.options.screen_buttons : Screen buttons
-##menu.options.pause_speed_toggle : Disable FF on pause
+##menu.options.hint_mode : 游戏中工具提示
+##menu.options.screen_buttons : 屏幕按钮
+##menu.options.pause_speed_toggle : 暂停时禁用FF
 ##menu.options.effects_volume : 音效量
 ##menu.options.music_volume : 音乐量
 ##menu.options.scroll_speed : 滚动速度
 ##menu.options.edge_scroll_range : 边滚动范围
-##menu.options.large_diodes : Large diodes
-##menu.options.larger_font : Larger font
-##menu.options.show_fps : Show FPS
-##menu.options.show_timer : Show timer
-##menu.options.splash_screen : Splash screen
+##menu.options.large_diodes : 大器件
+##menu.options.larger_font : 更大字体
+##menu.options.show_fps : 显示FPS
+##menu.options.show_timer : 显示计时器
+##menu.options.splash_screen : 闪屏
 
-##menu.options.graphics.shadows : Shadows
-##menu.options.graphics.vsync : VSync
-##menu.options.graphics.camera_shaking : Camera shaking
-##menu.options.graphics.shaders : Shaders
-##menu.options.graphics.screen_filter : Screen filter
-##menu.options.graphics.fullscreen : Fullscreen
-##menu.options.graphics.aspect_ratio : Aspect ratio
+##menu.options.graphics.shadows : 阴影
+##menu.options.graphics.vsync : 垂直同步
+##menu.options.graphics.camera_shaking : 摄像头抖动
+##menu.options.graphics.shaders : 着色器
+##menu.options.graphics.screen_filter : 屏幕过滤器
+##menu.options.graphics.fullscreen : 全屏
+##menu.options.graphics.aspect_ratio : 长宽比
 
 ##menu.options.screen_filter.normal : none (default)
 ##menu.options.screen_filter.crt : CRT
@@ -204,7 +205,7 @@ Schemas can be used to save and load your favorite drone build.
 
 ##menu.credits.crew : crew
 ##menu.credits.assets : assets
-##menu.credits.special_thanks : special thanks
+##menu.credits.special_thanks : 特别感谢
 ##menu.credits.thank_player : And thank you, dear player <3
 
 ##menu.lobby.world_shape.square : square
@@ -213,23 +214,23 @@ Schemas can be used to save and load your favorite drone build.
 
 ##menu.lobby.points_allocated : Points allocated
 
-##menu.lobby.game_seed : Game seed
+##menu.lobby.game_seed : 游戏速度
 ##menu.lobby.game_seed.description
-The game seed controls the random world generation.
-The same seed will create an identical world every time.
-A seed should be a positive number.
-If empty, a random seed will be used.
+游戏种子控制随机世界生成。
+同一颗种子每次都会创造一个相同的世界。
+种子应该是正数。
+如果为空，将使用随机种子。
 
-##menu.lobby.game_speed : Game speed
+##menu.lobby.game_speed : 游戏速度
 ##menu.lobby.game_speed.description
-The game speed multiplier.
-x1.5 means the game will run 50% faster.
-In other words, 10 minutes of the actual gameplay will progress the game time by 15 minutes.
+游戏速度倍增器。
+x1.5意味着游戏运行速度将加快50%。
+换句话说，10分钟的实际游戏时间将使游戏时间增加15分钟。
 
-##menu.lobby.fog_of_war : Fog of war
+##menu.lobby.fog_of_war : 战争迷雾
 ##menu.lobby.fog_of_war.description
-This options toggles the fog of war.
-If turned on, the map is not revealed from the start.
+此选项可切换战争迷雾。
+如果启用该选项，则不会从一开始就显示地图。
 
 ##menu.lobby.relicts : Relicts
 ##menu.lobby.relicts.description
