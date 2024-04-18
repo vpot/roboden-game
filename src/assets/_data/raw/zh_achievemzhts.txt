@@ -1,0 +1,163 @@
+##achievement.game_mode : 游戏模式
+##achievement.mode.classic : 经典
+##achievement.mode.arena : 竞技场
+##achievement.mode.inf_arena : 无限竞技场
+##achievement.mode.reverse : 反转
+##achievement.mode.unknown : ???
+
+##achievement.grade.none : 尚未实现
+##achievement.grade.normal : 正常
+##achievement.grade.elite : 精英
+
+##achievement.trample : Stompy
+##achievement.trample.description
+将一个殖民地降落在至少一个敌方地面机器人上，粉碎它。
+
+##achievement.impossible : Impossibly Difficult
+##achievement.impossible.description
+当难度设置为超过200%时获胜。
+
+##achievement.speedrunning : Speedrunning
+##achievement.speedrunning.description
+在15分钟内取得胜利。
+
+##achievement.t3engineer : Gotta Catch 'Em All
+##achievement.t3engineer.description
+发现所有三级无人机。
+
+##achievement.t3less : Tech Limitations
+##achievement.t3less.description
+在不制造一架三级无人机的情况下取得胜利。
+
+##achievement.cheapbuild10 : Small Deck
+##achievement.cheapbuild10.description
+在拥有使用不超过10个分配点数的无人机时获胜。
+
+##achievement.hightension : High Tension
+##achievement.hightension.description
+在不摧毁任何敌人基地的情况下，以最小的地图尺寸获胜。
+“爬行基础”难度选项不应为0。
+
+##achievement.solobase : Solo Base Run
+##achievement.solobase.description
+在不建立任何新殖民地的情况下获胜。
+
+##achievement.uiless : Minimal UI
+##achievement.uiless.description
+在关闭额外的图形用户界面的情况下获胜。
+将“额外”选项卡中的“用户界面模式”切换为“最小”。
+
+##achievement.powerof3 : A Power of Three
+##achievement.powerof3.description
+在不使用四个派系之一的情况下赢得战斗。
+换句话说，在战斗中只使用三个派系。
+
+##achievement.victorydrag : Dragged Victory
+##achievement.victorydrag.description
+赢得一场持续不少于2个小时的战斗。
+
+##achievement.tinyradius : Sealed Radius
+##achievement.tinyradius.description
+在不增加影响半径的情况下清除标高。
+
+##achievement.t1army : T1 Army
+##achievement.t1army.description
+在只有一级战斗单位的情况下清除等级。
+换句话说，不要在游戏中创建任何二级或三级战斗单位来获得这个成就。
+
+##achievement.groundwin : Ground Salvo
+##achievement.groundwin.description
+在无畏舰接近地面的那一刻摧毁它。
+
+##achievement.turretdamage : Turret Barrage
+##achievement.turretdamage.description
+使用地面炮塔对无畏舰造成至少25%的伤害。
+
+##achievement.leet : 1337
+##achievement.leet.description
+以1337的比分赢得一场比赛。这个种子启用了一些特殊规则，所以要做好准备。
+
+##achievement.antidominator : Anti-domination
+##achievement.antidominator.description
+在最后一波倒计时达到零之前消灭所有主宰级敌人。
+
+##achievement.infinite : Infinite Battle
+##achievement.infinite.description
+在无限竞技场模式下生存至少35波。
+
+##achievement.nopeeking : No Peeking
+##achievement.nopeeking.description
+在不看进化标签的情况下赢得一场比赛。
+换句话说，在整个比赛过程中，不要按下ALT（键盘上）或R2（游戏板上）。
+
+##achievement.colonyhunter : Colony Hunter
+##achievement.colonyhunter.description
+在获胜的反向比赛中摧毁至少3个殖民地。
+
+##achievement.groundcontrol : Ground Control
+##achievement.groundcontrol.description
+在逆转比赛获胜的任何时刻，战场上至少有20座火箭炮塔。
+
+##achievement.atomicfinisher : A-bomb Launch Detected
+##achievement.atomicfinisher.description
+通过发射原子弹赢得游戏。原子弹可以在150%的技术进步水平下使用。
+
+##achievement.coordinator : Master Tactician
+##achievement.coordinator.description
+使用拉力行动，通过Coordinator无人机发动5个以上单位的攻击。当协调人从无畏舰上脱离时，他们将作为额外的拉力赛激活点。
+
+##achievement.siege : Siege
+##achievement.siege.description
+在不依赖原子弹武器的情况下，在战斗中击败蜂巢殖民地。
+
+##achievement.nonstop : Nonstop
+##achievement.nonstop.description
+无需使用暂停功能，即可在任何模式下取得胜利。
+使用退出按钮激活暂停也算作暂停。
+
+##achievement.secret : The True Ending
+##achievement.secret.description
+这个游戏有一个真实、规范的结局。
+找到它并不简单，但它就在那里！
+
+##achievement.terminal : Terminator
+##achievement.terminal.description
+这可能是这款游戏最不为人知的成就。
+提示就在那里，因为它的价值。
+
+##achievement.spectator : Spectator
+##achievement.spectator.description
+观看启动屏幕模拟直到结束。一边欣赏电影摄影机。
+
+##achievement.gladiator : Gladiator
+##achievement.gladiator.description
+提交您的成绩并进入全球领导力排行榜！
+
+##achievement.darkness : Into the Darkness
+##achievement.darkness.description
+在具有非正方形形状和战争迷雾的地图上获胜。
+
+##achievement.quicksilver : Quicksilver
+##achievement.quicksilver.description
+在竞技场模式下启用掷弹兵爬行，不要让你的殖民地被它们击中。不允许使用方舟殖民地。
+
+##achievement.infernal : Infernal
+##achievement.infernal.description
+使用合适的魔法种子在竞技场模式下征服地狱环境。
+
+##achievement.lucky : Lucky Roll
+##achievement.lucky.description
+每一场胜利都有机会带来幸运。
+
+##achievement.fastforward : Fast Forward
+##achievement.fastforward.description
+在启用快进的情况下，至少85%的时间都能获胜。
+
+为了获得这个成就，游戏速度应该设置为x2（“额外”选项卡）。
+
+要启用快进，请使用此类似图标激活屏幕上的按钮。
+当激活暂停时，快进模式将被禁用，但您可以在设置中覆盖此行为。
+
+##achievement.cheese : Gaming Cheese
+##achievement.cheese.description
+再见，谢谢你的赞赏!

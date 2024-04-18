@@ -1,0 +1,158 @@
+##drone.undiscovered : Undiscovered drone
+##drone.locked : Locked drone
+##turret.locked : Locked rurret
+##core.locked : Locked colony
+##drone.score_required : Total score required
+
+##core.den : Den
+##core.ark : Ark
+##core.tank : Bastion
+##core.hive : Hive
+
+##core.mobility_rating : Mobility rating
+##core.unit_limit_rating : Drone limit rating
+##core.capacity_rating : Resources capacity rating
+
+##core.ability.crush : Crushes ground units upon landing
+##core.ability.build_discount : Building turrets and bases is 50% cheaper
+##core.ability.flying : Airborne
+##core.ability.no_teleporters : Can't activate teleporters
+##core.ability.cant_fly : Can't fly during the movement
+##core.ability.cant_move : Can't move at all
+##core.ability.drone_control : Can set drone rally points
+##core.ability.weapons : Can attack flying targets
+##core.ability.ground_weapons : Can attack ground targets
+##core.ability.robust : Highly resistant to damage
+##core.ability.cheap_drones : Cheaper drone production
+
+##drone.kind.worker : worker
+##drone.kind.military : combat
+##drone.kind.universal : universal
+
+##drone.target : Targets
+##drone.target.ground : ground
+##drone.target.flying : flying
+##drone.target.none : doesn't attack
+
+##drone.worker : Worker
+##drone.scout : Scout
+##drone.scavenger : Scavenger
+##drone.courier : Courier
+##drone.cloner : Cloner
+##drone.freighter : Freighter
+##drone.redminer : Oil Tanker
+##drone.crippler : Hunter
+##drone.disintegrator : Disintegrator
+##drone.fighter : Fighter
+##drone.defender : Defender
+##drone.prism : Prism
+##drone.servo : Servobot
+##drone.repeller : Shocker
+##drone.repair : Repairbot
+##drone.recharger : Recharger
+##drone.generator : Generator
+##drone.mortar : Mortar
+##drone.antiair : Missilebot
+##drone.commander : Commander
+##drone.targeter : Targeter
+##drone.firebug : Firebug
+##drone.trucker : Trucker
+##drone.stormbringer : Stormbringer
+##drone.destroyer : Destroyer
+##drone.marauder : Marauder
+##drone.guardian : Guardian
+##drone.kamikaze : Divine Wind
+##drone.skirmisher : Skirmisher
+##drone.roomba : Seeker
+##drone.scarab : Scarab
+##drone.devourer : Devourer
+##drone.bomber : Bomber
+
+##drone.attack_rating_multi : per 1 target
+##drone.ability.num_targets_f : Attacks up to %d targets
+##drone.ability.num_targets_alt_f : Up to %d extra targets
+
+##drone.dps_rating : DPS rating
+##drone.attack_range_rating : Attack range rating
+##drone.defense_rating : Defense rating
+##drone.attack_rating : Weapon rating
+##drone.upkeep_cost : Upkeep cost
+
+##drone.ability.self_repair : Repairs itself over time
+##drone.ability.extra_payload : Increased max payload
+##drone.ability.aggro : Attracts the target's aggro
+##drone.ability.disarm : May disable the target's weapon
+##drone.ability.slow : Slows targets down
+##drone.ability.cloak_hide : Cloaks itself when heavily damaged
+##drone.ability.cloak_scavenge : Cloaks itself when harvesting scraps
+
+##drone.ability.energy_regen : Very high energy regen rate
+##drone.ability.cloning : Performs drone cloning
+##drone.ability.repair : Repairs damaged drones
+##drone.ability.recharge : Recovers the energy of drones
+##drone.ability.red_oil_scavenge : Can harvest a red oil resource
+##drone.ability.colony_speed : Makes the colony move faster
+##drone.ability.colony_jump : Increases colony max jump distance
+##drone.ability.discharged_speed : Moves fast even when low on energy
+##drone.ability.scrap_scavenge : Can harvest scraps
+##drone.ability.courier : Redistributes colony resources
+##drone.ability.zero_upkeep : Zero upkeep cost
+##drone.ability.upkeep_decrease : Decreases the total upkeep costs
+##drone.ability.ground : The only ground drone
+##drone.ability.map_patrol : Patrols the map and guards turrets
+##drone.ability.discharged_after_attack : Discharges after firing once
+##drone.ability.group_command : Followed by other drones
+##drone.ability.group_buff : Improves the group's accuracy
+##drone.ability.group_buff_def : Improves the group's durability
+##drone.ability.target_marking : Increases range by marking targets
+##drone.ability.kamikaze : Can perform a kamikaze attack
+##drone.ability.prism_reflect : Prisms combine their attacks
+##drone.ability.scarab_potential : Greatly evolves over time
+##drone.ability.consume_for_heal : Consumes t1 workers to repair itself
+##drone.ability.consume_for_power : Gets power when consuming a drone
+##drone.ability.bomb_attack : Attacks only when ordered
+##drone.ability.bomb_aoe : The bombs deal area of effect damage
+##drone.ability.more_building_damage_f : %d%% more damage against buildings
+##drone.ability.less_building_damage_f : %d%% less damage against buildings
+
+##turret.harvester : Harvester
+##turret.harvester.description
+一辆四处行驶并收集资源的装甲卡车。
+它只能开采矿物，而不能开采类似石油或废弃资源。
+它没有任何武器。
+
+##turret.siege : Firestorm
+##turret.siege.description
+一个攻城导弹发射器。
+只能攻击大型地面目标。
+经过几次攻击后，它需要很长时间才能重新加载。
+
+##turret.refinery : Refinery
+##turret.refinery.description
+一个不会攻击的公用设施建筑。炼油厂是增加收入的资源输送点。
+它还可以作为一个额外的资源缓冲区，增加群体的最大资源容量。
+失去炼油厂不会浪费任何储存的资源。
+
+##turret.sentinelpoint : Twister
+##turret.sentinelpoint.description
+一种能够攻击空中和地面目标的多目标激光炮塔。
+该炮塔需要三架无人机的持续维护才能正常工作。
+如果这三架无人机中的任何一架被禁用，炮塔将离线。
+
+##turret.gunpoint : Pillbox
+##turret.gunpoint.description
+一种坚固的防御，建造起来既快又便宜。
+其中几个可以阻止敌方地面部队。
+它很容易被敌人的飞行部队攻击。
+
+##turret.beamtower : Beam Tower
+##turret.beamtower.description
+一个极具破坏性的远程能量武器平台。
+它缺乏地堡的耐用性，而且建造起来更难。
+当连续攻击时，它的射速会降低，需要时间充电。
+它在对抗敌方地面部队时很脆弱。
+
+##turret.tetherbeacon : Navigation Beacon
+##turret.tetherbeacon.description
+一个不会攻击的公用设施建筑。信标可以提高附近单位的速度。
+当一个群体经过时，它也会加快速度。这座建筑是伺服机器人奖金的替代品。

@@ -1,0 +1,705 @@
+##game.title : Roboden
+
+##game.splash.presskey.keyboard : Press ENTER to continue
+##game.splash.presskey.gamepad : Press $gamepad_start to continue
+##game.splash.presskey.touch : Tap to continue
+
+##game.onboard.welcome : Welcome to Roboden!
+##game.onboard.select_input_method
+Please select your preferred input device.
+You can change this decision later.
+
+##boot.wasm : Web build needs to download assets, it can take a while
+##boot.title : Starting Roboden, please wait
+##boot.load_ui : Loading UI resources
+##boot.load_images : Loading image resources
+##boot.load_audio : Loading audio resources
+##boot.load_music : Loading music
+##boot.load_shaders : Compiling shaders
+##boot.load_extra : Initializing game data
+##boot.steam_sync : Steam sync
+##boot.almost_there : Almost there
+
+##menu.submit.title : Sending data, please wait
+
+##menu.main.title : Main Menu
+##menu.main.play : Play
+##menu.main.schema : Schema Manager
+##menu.main.profile : Profile
+##menu.main.settings : Settings
+##menu.main.credits : Credits
+##menu.main.exit : Exit
+##menu.main.build : Game build
+##menu.main.leaderboard : Leaderboard
+
+##menu.leaderboard.placeholder : Loading data...
+##menu.leaderboard.fetch_error : Can't load leaderboard
+##menu.leaderboard.classic : Classic
+##menu.leaderboard.blitz : Blitz
+##menu.leaderboard.arena : Arena
+##menu.leaderboard.inf_arena : Infinite Arena
+##menu.leaderboard.reverse : Reverse
+##menu.leaderboard.season : Season
+##menu.leaderboard.num_players : Players
+##menu.leaderboard.col_rank : rank
+##menu.leaderboard.col_name : name
+##menu.leaderboard.col_platform : clan
+##menu.leaderboard.col_difficulty : difficulty
+##menu.leaderboard.col_score : score
+##menu.leaderboard.col_time : time
+
+##menu.save_schema : Save
+##menu.load_schema : Load
+##menu.load_schema_drones : Load Drones
+##menu.rename_schema : Rename
+##menu.schema_name : Schema Name
+##menu.empty_schema_slot : Empty schema slot
+
+##menu.schema.difficulty : Difficulty
+##menu.schema.colony : Colony
+##menu.schema.turret : Turret
+##menu.schema.drones : Drones
+
+##menu.lobby.schema_rand
+Use a random drones combination.
+
+##menu.lobby.schema_edit
+Open the schema editor.
+
+You can save the current game settings and restore them later.
+
+Schemas can be used to save and load your favorite drone build.
+
+##menu.save_replay : Save Replay
+##menu.publish_score : Publish Score
+##menu.publish_high_score : Publish Highscores
+##menu.save : Save
+##menu.set_user_name : Change Player Name
+##menu.user_name : Player Name
+##menu.user_name_rules
+* Only English letters, digits, spaces, and underscores are allowed
+* Has to contain at least one non-space character
+* No longer than 20 characters
+* Empty username => can't submit scores
+
+##tutorial.reward : Score reward
+##tutorial.reward_claimed : claimed
+
+##menu.play.intro_mission : Intro Mission
+##menu.play.classic : Classic Mode
+##menu.play.blitz : Blitz Mode
+##menu.play.arena : Arena Mode
+##menu.play.inf_arena : Infinite Arena Mode
+##menu.play.reverse : Reverse Mode
+
+##menu.profile.achievements : Achievements
+##menu.profile.stats : Stats
+##menu.profile.progress : Progress
+##menu.profile.dronebook : Drone Collection
+##menu.profile.watch_replay : Watch Replay
+
+##menu.replace.version_mismatch : version mismatch
+##menu.replay.game_result : Result
+##menu.replay.last_played : Last played
+##menu.replay.empty : Empty Slot
+##menu.replay.notice : Replays are experimental and lack convenience options
+
+##menu.profile.stats.totalscore : Total score
+##menu.profile.stats.classic_highscore : Classic highest score
+##menu.profile.stats.blitz_highscore : Blitz highest score
+##menu.profile.stats.arena_highscore : Arena highest score
+##menu.profile.stats.inf_arena_highscore : Infinite arena highest score
+##menu.profile.stats.reverse_highscore : Reverse highest score
+
+##menu.profile.progress.achievements : Achievements
+##menu.profile.progress.modes_unlocked : Game modes unlocked
+##menu.profile.progress.cores_unlocked : Colonies unlocked
+##menu.profile.progress.turrets_unlocked : Turrets unlocked
+##menu.profile.progress.drones_unlocked : Tier 2 drones unlocked
+##menu.profile.progress.t3drones_seen : Tier 3 drones discovered
+##menu.profile.progress.extra_options_unlocked : Extra options unlocked
+
+##menu.tier : tier
+##menu.back : Back
+##menu.next : Next
+##menu.lobby_back : Done
+
+##menu.options.gameplay : Gameplay
+##menu.options.sound : Sound
+##menu.options.graphics : Graphics
+##menu.options.extra : Extra
+##menu.options.accessibility : Accessibility
+##menu.options.controls : Controls
+
+##menu.options.music_player : Music player
+##menu.option.music_player.xm : XM
+##menu.option.music_player.ogg : OGG
+
+##menu.terminal : Terminal
+##menu.terminal.command_output_label : Command output
+##menu.terminal.placeholder : type commands in here
+
+##menu.option.on : on
+##menu.option.off : off
+##menu.option.locked : Locked option
+
+##menu.option.very_low : very low
+##menu.option.low : low
+##menu.option.normal : normal
+##menu.option.rich : rich
+##menu.option.very_rich : very rich
+
+##menu.option.none : none
+##menu.option.some : some
+##menu.option.lots : lots
+##menu.option.mandatory : only mandatory
+##menu.option.all : all
+
+##menu.power.weak : weak
+##menu.power.normal : normal
+##menu.power.tough : tough
+##menu.power.very_tough : very tough
+
+##menu.option.very_easy : very easy
+##menu.option.easy : easy
+##menu.option.hard : hard
+##menu.option.very_hard : very hard
+##menu.option.impossible : impossible
+##menu.difficulty_score_despair : despair
+##menu.difficulty_score_ultimate_despair : ultimate despair
+
+##menu.option.very_small : very small
+##menu.option.small : small
+##menu.option.big : big
+
+##menu.options.hint_mode : In-game tooltips
+##menu.options.screen_buttons : Screen buttons
+##menu.options.pause_speed_toggle : Disable FF on pause
+##menu.options.effects_volume : Effects volume
+##menu.options.music_volume : Music volume
+##menu.options.scroll_speed : Scroll speed
+##menu.options.edge_scroll_range : Edge scroll range
+##menu.options.large_diodes : Large diodes
+##menu.options.larger_font : Larger font
+##menu.options.show_fps : Show FPS
+##menu.options.show_timer : Show timer
+##menu.options.splash_screen : Splash screen
+
+##menu.options.graphics.shadows : Shadows
+##menu.options.graphics.vsync : VSync
+##menu.options.graphics.camera_shaking : Camera shaking
+##menu.options.graphics.shaders : Shaders
+##menu.options.graphics.screen_filter : Screen filter
+##menu.options.graphics.fullscreen : Fullscreen
+##menu.options.graphics.aspect_ratio : Aspect ratio
+
+##menu.options.screen_filter.normal : none (default)
+##menu.options.screen_filter.crt : CRT
+##menu.options.screen_filter.sharpen : sharpen
+##menu.options.screen_filter.heavy_sharpen : sharpen x2
+##menu.options.screen_filter.hue_minus30 : hue rotate -15°
+##menu.options.screen_filter.hue_minus60 : hue rotate -50°
+##menu.options.screen_filter.hue_plus30 : hue rotate +15°
+##menu.options.screen_filter.hue_plus60 : hue rotate +50°
+
+##menu.credits.crew : crew
+##menu.credits.assets : assets
+##menu.credits.special_thanks : special thanks
+##menu.credits.thank_player : And thank you, dear player <3
+
+##menu.lobby.world_shape.square : square
+##menu.lobby.world_shape.horizontal : horizontal
+##menu.lobby.world_shape.vertical : vertical
+
+##menu.lobby.points_allocated : Points allocated
+
+##menu.lobby.game_seed : Game seed
+##menu.lobby.game_seed.description
+The game seed controls the random world generation.
+The same seed will create an identical world every time.
+A seed should be a positive number.
+If empty, a random seed will be used.
+
+##menu.lobby.game_speed : Game speed
+##menu.lobby.game_speed.description
+The game speed multiplier.
+x1.5 means the game will run 50% faster.
+In other words, 10 minutes of the actual gameplay will progress the game time by 15 minutes.
+
+##menu.lobby.fog_of_war : Fog of war
+##menu.lobby.fog_of_war.description
+This options toggles the fog of war.
+If turned on, the map is not revealed from the start.
+
+##menu.lobby.relicts : Relicts
+##menu.lobby.relicts.description
+Relicts are unique buildings that can be repaired by worker drones.
+When repaired, they can serve the colony that captured them.
+
+##menu.lobby.num_teleporters : Teleporters
+##menu.lobby.num_teleporters.description
+How many pairs of teleporters will be placed on the map.
+If a colony lands on a teleportation platform, it will be transported to the connected teleporter.
+
+##menu.lobby.players : Players
+##menu.lobby.players.description
+This option controls the number of allied colonies on the map and who controls them.
+Selecting two players will enable a split-screen local multiplayer.
+At least 1 gamepad is needed to play in the split-screen mode.
+If any of the allied players is defeated, the game ends.
+Only the single player mode score is ranked and can be published.
+
+##menu.lobby.players.reverse : Players
+##menu.lobby.players.reverse.description
+In reverse game mode, it's possible to have a PvP experience when split-screen is enabled.
+One player controls the dreadnought while another player controls the usual colony.
+At least 1 gamepad is needed to play in the split-screen mode.
+If any of the allied players is defeated, the game ends.
+Only the single player mode score is ranked and can be published.
+
+##menu.lobby.player_mode.single_player : single player
+##menu.lobby.player_mode.single_bot : single bot
+##menu.lobby.player_mode.player_and_bot : player and bot
+##menu.lobby.player_mode.two_players : two players (split-screen)
+##menu.lobby.player_mode.two_bots : two bots
+
+##menu.lobby.ui_mode : User interface mode
+##menu.lobby.ui_mode.description
+Whether to show extra graphical user interface elements or not.
+It's easier to play with them, but it's more immersive otherwise.
+
+##menu.lobby.world_resources : World resources
+##menu.lobby.world_resources.description
+The number of resources the generated world has.
+Fewer resources mean it will be hard to play a long battle.
+
+##menu.lobby.gold_enabled : Gold
+##menu.lobby.gold_enabled.description
+Whether a map will have gold deposits.
+On moon environment, disabling gold doubles the iron resources capacity.
+
+##menu.lobby.weather_enabled : Weather
+##menu.lobby.weather_enabled.description
+This switch enables the enviroment-specific weather effects.
+Not every environment has weather.
+
+##menu.lobby.world_size : World size
+##menu.lobby.world_size.description
+The generated world size.
+It's usually harder to play on a smaller map.
+
+##menu.lobby.world_shape : World shape
+##menu.lobby.world_shape.description
+The generated world map shape.
+It can be a square map or a rectangle-shaped map.
+A rectangle-shaped map is either horizontal or vertical.
+
+##menu.lobby.oil_regen_rate : Oil regeneration rate
+##menu.lobby.oil_regen_rate.description
+How fast the oil (normal and red) resources regenerate over time.
+This option can be used to completely disable that regeneration or make it faster.
+
+##menu.lobby.num_creep_bases : Creep bases
+##menu.lobby.num_creep_bases.description
+The number of drone-producing bases the enemy has.
+These bases produce more and more units over time, but they can't be replaced after being destroyed.
+
+##menu.lobby.tech_progress_rate : Tech progress rate
+##menu.lobby.tech_progress_rate.description
+Tech progress rate specifies how much creeps tech level increase when they use a dedicated disk.
+Faster tech progress rate makes the game easier for the dreadnought.
+
+##menu.lobby.reverse_super_creep_rate : Super creeps rate
+##menu.lobby.reverse_super_creep_rate.description
+A chance of a unit released from a garrison being extra powerful.
+The default rate is somewhat balanced.
+A lower rate makes the game harder for the Dreadnought.
+
+##menu.lobby.creep_production_rate : Creep production rate
+##menu.lobby.creep_production_rate.description
+Controls the creep units production speed.
+
+##menu.lobby.creep_spawn_rate : Creep spawn rate
+##menu.lobby.creep_spawn_rate.description
+This option controls the enemy unit spawn frequency.
+It affects the late-game out-of-screen spawns only.
+The enemy factories will produce units at the same speed.
+
+##menu.lobby.drones_power : Colony drones power
+##menu.lobby.drones_power.description
+The colony drones health multiplier.
+Higher values make the game for the creeps harder.
+
+##menu.lobby.creeps_difficulty : Creeps power
+##menu.lobby.creeps_difficulty.description
+The creep units' power multiplier.
+It mostly affects the amount of durability these units have.
+
+##menu.lobby.arena_progression : Wave difficulty progression
+##menu.lobby.arena_progression.description
+This option defines the difficulty progression speed.
+Every wave is harder than the previous one and this option controls by how much.
+
+##menu.lobby.initial_creeps : Initial creeps count
+##menu.lobby.initial_creeps.description
+How many creep units will be placed on the map from the very beginning.
+This option affects how easy the early game exploration for the colonies will be.
+
+##menu.lobby.creep_fortress : Creep fortress
+##menu.lobby.creep_fortress.description
+The fortress makes it hard to explore the region it's located in.
+It produces unique sentinel drones to patrol the area.
+It does not attack the colonies if they're out of its range.
+
+##menu.lobby.atom_weapon : Atomic weapon
+##menu.lobby.atom_weapon.description
+Whether Dreadnought can use atom bombs when 150% tech progress is reached.
+
+##menu.lobby.elite_fleet : Elite fleet
+##menu.lobby.elite_fleet.description
+If enabled, a colony will start with elite drones right away.
+
+##menu.lobby.ion_mortars : Ion mortars
+##menu.lobby.ion_mortars.description
+Whether creeps have ion mortar pits available.
+The ion mortar pits have a very long range, but low accuracy.
+Their attacks deal medium damage and burn a lot of the drone's energy.
+These mortars can't attack ground targets.
+
+##menu.lobby.boss_difficulty : Dreadnought power
+##menu.lobby.boss_difficulty.description
+The dreadnought power level.
+It affects the number of units it will produce and how hard it will be to defeat it in battle.
+
+##menu.lobby.coordinator_creeps : Coordinators
+##menu.lobby.coordinator_creeps.description
+Enables Coordinator enemies.
+Once in a while, enemy drone factories will produce special Coordinator units.
+These units will gather around the Dreadnought, serving both as a sword and shield.
+
+##menu.lobby.grenadier_creeps : Grenadiers
+##menu.lobby.grenadier_creeps.description
+Enables Grenadier enemies.
+Occasionally, a group of grenadiers will enter the map.
+Grenadiers can only attack ground targets and they will do anything to destroy the colonies and turrets.
+
+##menu.lobby.super_creeps : Super enemies
+##menu.lobby.super_creeps.description
+Whether enemies can have super versions of units.
+This is similar to the elite drones the player may have.
+Turning it on makes the game significantly harder for the colonies.
+
+##menu.lobby.starting_resources : Starting resources
+##menu.lobby.starting_resources.description
+This defines whether starting colony will have any starting resources.
+Some drone builds can benefit from this early game advantage.
+
+##menu.lobby.land : Terrain
+##menu.lobby.land.description
+Choose how many mountains and landcracks the map will have.
+Make them really rare or appear almost everywhere.
+
+##menu.lobby.environment : Environment
+##menu.lobby.environment.description
+Switches between biome types.
+
+Apart from the visual differences, each biome has
+some special differences that will affect the gameplay.
+
+##menu.lobby.go : Go!
+##menu.lobby.edit : Schema
+##menu.lobby.rand : Random
+
+##menu.lobby.moon : moon
+##menu.lobby.forest : forest
+##menu.lobby.inferno : inferno
+##menu.lobby.snow : tundra
+
+##menu.lobby.land_flat : flat
+##menu.lobby.land_normal : balanced
+##menu.lobby.land_mountains : mountain-heavy
+
+##menu.lobby.ui_minimal : minimal
+##menu.lobby.ui_radar : radar-only
+##menu.lobby.ui_full : full
+
+##menu.lobby.tab.colony : Colony
+##menu.lobby.tab.world : World
+##menu.lobby.tab.difficulty : Difficulty
+##menu.lobby.tab.extra : Extra
+
+##menu.results.claim_rewards : Claim Rewards
+##menu.results.rewards : Rewards
+##menu.results.the_end : The End
+##menu.results.victory : Victory
+##menu.results.defeat : Defeat
+##menu.results.player1_win : Player 1 wins
+##menu.results.player2_win : Player 2 wins
+##menu.results.time_played : Time played
+##menu.results.resources_gathered : Resources gathered
+##menu.results.drones_total : Drones produced
+##menu.results.creeps_defeated : Creeps defeated
+##menu.results.score : Score
+##menu.results.new_achievement : New achievement
+##menu.results.upgraded_achievement : Upgraded achievement
+##menu.results.new_record : local record
+##menu.results.new_core : Colony unlocked
+##menu.results.new_drone : Drone unlocked
+##menu.results.new_turret : Turret unlocked
+##menu.results.new_option : Option unlocked
+##menu.results.new_mode : Mode unlocked
+
+##menu.controls.auto_infer : Auto-Detect
+##menu.controls.keyboard : Keyboard
+##menu.controls.gamepad : Gamepad
+##menu.controls.touch : Touchscreen
+##menu.controls.method_combined : combined
+##menu.controls.method_keyboard : keyboard
+##menu.controls.method_gamepad : gamepad
+##menu.controls.wheel_scroll : Middle mouse button scroll
+##menu.controls.wheel_scroll.drag : drag
+##menu.controls.wheel_scroll.float : float
+##menu.controls.player_label : Player
+##menu.controls.gamepad_deadzone : Joystick deadzone
+##menu.controls.gamepad_layout : Layout
+##menu.controls.gamepad_cursor_speed : Virtual cursor speed
+
+##menu.controls.gamepad_status : Controller status
+##menu.controls.gamepad_status.checking : checking
+##menu.controls.gamepad_status.not_connected : not connected
+##menu.controls.gamepad_status.connected : connected
+
+##menu.controls.gamepad.calibrate
+The red dot should be centered if joystick is resting.
+
+##menu.controls.keyboard.text
+Pan camera | Middle mouse button + drag, edge scroll, W/A/S/D
+Move colony | RMB click on the destination
+Select colony | LMB click on the colony
+Toggle colony | TAB
+Action disk select | LMB click on the card, 1-5
+Pause | SPACE (also disables fast forward)
+Toggle evolution sheet | ALT
+Toggle user interface | F11
+Toggle fast forward (single player only) | F
+Ping (coop only) | CTRL + LMB click
+Exit/Back | ESC
+
+##menu.controls.gamepad.text
+Pan camera | D-pad, left stick
+Move colony | Right stick click on the destination
+Select colony | Right stick click on the colony
+Toggle colony | L1
+Action disk select | Right stick click on the disk, $gamepad_y $gamepad_b $gamepad_a $gamepad_x R1
+Pause | $gamepad_start (also disables fast forward)
+Toggle evolution sheet | R2 button
+Toggle user interface | L2 button
+Toggle fast forward (single player only) | Left stick click
+Ping (coop only) | Left stick click
+Exit/Back | $gamepad_back
+
+##menu.controls.touch.text
+Pan camera | Drag gesture
+Move colony | Tap on the destination
+Select colony | Tap on the colony
+Action disk select | Tap on the card
+Show tooltip | Long tap on the object of interest
+
+##menu.overview.intro_mission
+Intro mission (est. time: 15 minutes)
+
+This is a guided quick-start mode. Learn the gameplay fundamentals and defeat the opposing force.
+
+Completing the tutorial unlocks the Classic mode (or you can conquer a couple of Blitz matches).
+
+##menu.overview.classic
+Classic mode (est. time: 30 minutes)
+
+Win by defeating the enemy flagship, the dreadnought. This is the main game mode.
+
+The dreadnought is very powerful. Evade the combat with it until allied colonies are evolved enough.
+
+Split-screen multiplayer: cooperative.
+
+##menu.overview.blitz
+Blitz mode (est. time: 15 minutes)
+
+Win by destroying all enemy unit-producing structures. This game mode is more beginner-friendly than Classic mode.
+
+You start with an advanced colony on a map full of dangers.
+
+Split-screen multiplayer: cooperative.
+
+##menu.overview.arena
+Arena mode (est. time: 60 minutes)
+
+Win by surviving for 20 waves.
+
+Split-screen multiplayer: cooperative.
+
+##menu.overview.inf_arena
+Inf arena mode (est. time: 90 minutes)
+
+Stand the ground for as long as possible.
+
+It's not possible to win in this mode, but the score is based on the playtime.
+
+Split-screen multiplayer: cooperative.
+
+##menu.overview.reverse
+Reverse mode (est. time: 40 minutes)
+
+Play as the other side and lead the dreadnought.
+
+Win by destroying all colonies.
+
+Split-screen multiplayer: competitive (PvP).
+
+##game.hint.building.megaroomba : Battle platform
+##game.hint.building.tower : Repulse tower
+##game.hint.building.power_plant : Power plant
+##game.hint.building.drone_factory : Drone factory
+##game.hint.building_status.needs_repair : Needs repair
+##game.hint.building_status.functioning : Functioning
+##game.hint.screen_button.toggle : Toggle view
+##game.hint.screen_button.exit : Exit
+##game.hint.screen_button.fast_forward : Toggle x2 speed
+##game.hint.rpanel.garrison : Units in garrison
+##game.hint.rpanel.tech_progress_f : Tech progress: %d%%
+##game.hint.rpanel.priority_resources : Resources priority
+##game.hint.rpanel.priority_growth : Growth priority
+##game.hint.rpanel.priority_evolution : Evolution priority
+##game.hint.rpanel.priority_security : Security priority
+##game.hint.rpanel.factions : Faction distribution
+##game.hint.action.priorities1_f : Increase %s priority
+##game.hint.action.priorities2_f : Increase %s+%s priorities
+##game.hint.action.garrison_f : Add units to %s garrison
+##game.hint.action.increaseradius : Increase colony radius
+##game.hint.action.decreaseradius : Decrease colony radius
+##game.hint.action.buildgunpoint : Build turret
+##game.hint.action.buildcolony : Build colony
+##game.hint.action.attack : Attack
+##game.hint.action.sendcreeps : Release units from garrisons
+##game.hint.action.rally : Rally nearby units
+##game.hint.action.spawncrawlers : Dispatch units from Dreadnought
+##game.hint.action.bossattack : Attack with Dreadnought
+##game.hint.action.increasetech : Increase the tech level (+5%)
+##game.hint.action.increasetechx2 : Increase the tech level (+10%)
+##game.hint.action.atomicbomb : Launch an atomic bomb
+
+##game.hint.teleporter : Teleporter
+##game.hint.colony : Colony
+##game.hint.lava_geyser : Lava geyser
+##game.hint.wisp_lair : Wisp lair
+##game.hint.dreadnought : Dreadnought
+##game.hint.resource.magmarock : Volcanic resource
+##game.hint.resource.magmarock.value : Normal value
+##game.hint.resource.sulfur : Sulfur resource
+##game.hint.resource.sulfur.value : High value
+##game.hint.resource.scrap : Scrap resource
+##game.hint.resource.scrap.value : Very low value
+##game.hint.resource.iron : Iron resource
+##game.hint.resource.iron.value : Low value
+##game.hint.resource.mineral : Mineral resource
+##game.hint.resource.mineral.value : Normal value (requires tier 2)
+##game.hint.resource.artifact : Artifact
+##game.hint.resource.artifact.value : Upgrades the drone
+##game.hint.resource.organic : Organic resource
+##game.hint.resource.organic.value : Normal value
+##game.hint.resource.gold : Gold resource
+##game.hint.resource.gold.value : Normal value
+##game.hint.resource.crystal : Crystal resource
+##game.hint.resource.crystal.value : High value
+##game.hint.resource.oil : Oil resource
+##game.hint.resource.oil.value : Normal value, regenerates
+##game.hint.resource.red_crystal : Red crystal resource
+##game.hint.resource.red_crystal.value : Very high value, elite
+##game.hint.resource.red_oil : Red Oil resource
+##game.hint.resource.red_oil.value : Normal value, elite, regenerates
+
+##game.notice.ping
+An ally has marked this place
+
+##game.notice.base_under_attack
+A colony is under attack!
+##game.notice.base_destroyed
+A colony has been destroyed!
+
+##game.pause.notice.keyboard
+Game paused
+[to resume the game, press SPACE]
+##game.pause.notice.gamepad
+Game paused
+[to resume the game, press $gamepad_start]
+##game.exit.notice.keyboard
+Click this message to quit
+[to resume the game, click anywhere else]
+##game.exit.notice.gamepad
+Press the button again to quit
+[to resume the game, press $gamepad_start]
+##game.exit.notice.touch
+Tap this message to quit
+[to resume the game, tap anywhere else]
+
+##game.wave : Wave
+##game.wave_last : Survive to win
+##game.wave_starts_in : starts in
+##game.wave_units : Unit types
+##game.wave_special_units : Danger
+##game.wave_direction : Attack directions
+##game.wave_builders : builder
+##game.wave_task_force : raider
+##game.wave_dominator : dominator
+##game.wave_howitzer : howitzer
+##game.side.all : all
+##game.side.east : east
+##game.side.south : south
+##game.side.west : west
+##game.side.north : north
+
+##game.value.hour : h
+##game.value.minute : m
+##game.value.second : s
+
+##game.choice.resources : resources
+##game.choice.growth : growth
+##game.choice.evolution : evolution
+##game.choice.security : security
+##game.choice.attack : Attack
+##game.choice.build_colony : Build new colony
+##game.choice.build_gunpoint : Build turret
+##game.choice.increase_radius : Increase radius
+##game.choice.decrease_radius : Decrease radius
+
+##creep.rogue : Rogue
+##creep.discharger : Discharger
+##creep.vanguard : Vanguard
+##creep.stunner : Stunner
+##creep.coordinator : Coordinator
+##creep.dominator : Dominator
+##creep.builder : Builder
+##creep.crawler : Crawler
+##creep.sprayer : Sprayer
+##creep.assault_crawler : Assault Crawler
+##creep.stealth_crawler : Stealth Crawler
+##creep.howitzer : Howitzer
+
+##creep.hint.crawler_base : Crawler Factory
+##creep.hint.base : Drone Factory
+##creep.turret : Missile Turret
+##creep.ion_mortar: Ion Mortar
+##creep.fortress : Fortress
+
+##menu.special_text
+祝贺你发现了一封密信！
+
+我和我的朋友在两周的游戏堵塞中创建了这款游戏的第一个版本。
+
+我们非常喜欢结果，并决定
+让这款游戏有机会看到Steam的发布。
+
+如果你喜欢这个游戏，请告诉我。
+我很有兴趣在某个时候回到这里，让它变得更好，
+但我想先看看社区对这款游戏的看法。
+
+- quasilyte
