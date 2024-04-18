@@ -94,6 +94,7 @@ func (c *OptionsMenuController) initUI() {
 		langOptions := []string{
 			"en",
 			"ru",
+			"ch",
 		}
 		langIndex := xslices.Index(langOptions, options.Lang)
 		langSelect := eui.NewSelectButton(eui.SelectButtonConfig{

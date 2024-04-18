@@ -16,6 +16,7 @@ func main() {
 	}{
 		{key: "en"},
 		{key: "ru"},
+		{key: "ch"},
 	}
 
 	var missingKeys []string
@@ -69,6 +70,8 @@ func loadDict(ctx *ge.Context, key string) *langs.Dictionary {
 		id = assets.RawDictEn
 	case "ru":
 		id = assets.RawDictRu
+	case "ch":
+		id = assets.RawDictCh
 	default:
 		panic(fmt.Sprintf("unsupported lang: %q", key))
 	}

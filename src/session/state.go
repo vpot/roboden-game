@@ -353,6 +353,8 @@ func (state *State) ReloadLanguage(ctx *ge.Context) {
 		id = assets.RawDictEn
 	case "ru":
 		id = assets.RawDictRu
+	case "ch":
+		id = assets.RawDictCh
 	default:
 		panic(fmt.Sprintf("unsupported lang: %q", lang))
 	}

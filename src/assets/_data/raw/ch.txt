@@ -1,38 +1,38 @@
 ##game.title : Roboden
 
-##game.splash.presskey.keyboard : Press ENTER to continue
-##game.splash.presskey.gamepad : Press $gamepad_start to continue
-##game.splash.presskey.touch : Tap to continue
+##game.splash.presskey.keyboard :按ENTER继续
+##game.splash.presskey.gamepad : 按$gamepad_start继续
+##game.splash.presskey.touch : 点击继续
 
-##game.onboard.welcome : Welcome to Roboden!
+##game.onboard.welcome : 欢迎来到Roboden!
 ##game.onboard.select_input_method
-Please select your preferred input device.
-You can change this decision later.
+请选择您喜欢的输入设备。
+您可以稍后更改此决定。
 
-##boot.wasm : Web build needs to download assets, it can take a while
-##boot.title : Starting Roboden, please wait
-##boot.load_ui : Loading UI resources
-##boot.load_images : Loading image resources
-##boot.load_audio : Loading audio resources
-##boot.load_music : Loading music
-##boot.load_shaders : Compiling shaders
-##boot.load_extra : Initializing game data
+##boot.wasm : Web构建需要下载资源，可能需要一段时间
+##boot.title : 开始Roboden中, 请等待
+##boot.load_ui : 加载UI资源中
+##boot.load_images : 加载图片资源中
+##boot.load_audio : 加载音频资源中
+##boot.load_music : 加载音乐中
+##boot.load_shaders : 编译着色器中
+##boot.load_extra : 初始化游戏数据中
 ##boot.steam_sync : Steam sync
 ##boot.almost_there : Almost there
 
-##menu.submit.title : Sending data, please wait
+##menu.submit.title : 发送数据中，请等待
 
-##menu.main.title : Main Menu
-##menu.main.play : Play
-##menu.main.schema : Schema Manager
-##menu.main.profile : Profile
-##menu.main.settings : Settings
-##menu.main.credits : Credits
-##menu.main.exit : Exit
-##menu.main.build : Game build
-##menu.main.leaderboard : Leaderboard
+##menu.main.title : 主菜单
+##menu.main.play : 开始
+##menu.main.schema : 模式管理器
+##menu.main.profile : 简介
+##menu.main.settings : 设置
+##menu.main.credits : 赞助
+##menu.main.exit : 退出
+##menu.main.build : 游戏构建
+##menu.main.leaderboard : 排行榜
 
-##menu.leaderboard.placeholder : Loading data...
+##menu.leaderboard.placeholder : 加载数据中...
 ##menu.leaderboard.fetch_error : Can't load leaderboard
 ##menu.leaderboard.classic : Classic
 ##menu.leaderboard.blitz : Blitz
@@ -48,8 +48,8 @@ You can change this decision later.
 ##menu.leaderboard.col_score : score
 ##menu.leaderboard.col_time : time
 
-##menu.save_schema : Save
-##menu.load_schema : Load
+##menu.save_schema : 保存
+##menu.load_schema : 加载
 ##menu.load_schema_drones : Load Drones
 ##menu.rename_schema : Rename
 ##menu.schema_name : Schema Name
@@ -119,66 +119,66 @@ Schemas can be used to save and load your favorite drone build.
 ##menu.profile.progress.t3drones_seen : Tier 3 drones discovered
 ##menu.profile.progress.extra_options_unlocked : Extra options unlocked
 
-##menu.tier : tier
-##menu.back : Back
-##menu.next : Next
-##menu.lobby_back : Done
+##menu.tier : 层叠
+##menu.back : 返回
+##menu.next : 下一步
+##menu.lobby_back : 完成
 
-##menu.options.gameplay : Gameplay
-##menu.options.sound : Sound
-##menu.options.graphics : Graphics
-##menu.options.extra : Extra
-##menu.options.accessibility : Accessibility
-##menu.options.controls : Controls
+##menu.options.gameplay : 开始
+##menu.options.sound : 声音
+##menu.options.graphics : 图像
+##menu.options.extra : 扩展
+##menu.options.accessibility : 教程
+##menu.options.controls : 控制
 
-##menu.options.music_player : Music player
+##menu.options.music_player : 音乐播放器
 ##menu.option.music_player.xm : XM
 ##menu.option.music_player.ogg : OGG
 
-##menu.terminal : Terminal
-##menu.terminal.command_output_label : Command output
-##menu.terminal.placeholder : type commands in here
+##menu.terminal : 终端
+##menu.terminal.command_output_label : 指令输出
+##menu.terminal.placeholder : 这里输入指令
 
-##menu.option.on : on
-##menu.option.off : off
+##menu.option.on : 开
+##menu.option.off : 关
 ##menu.option.locked : Locked option
 
-##menu.option.very_low : very low
-##menu.option.low : low
-##menu.option.normal : normal
-##menu.option.rich : rich
-##menu.option.very_rich : very rich
+##menu.option.very_low : 很贫穷
+##menu.option.low : 贫穷
+##menu.option.normal : 正常
+##menu.option.rich : 富有
+##menu.option.very_rich : 很富有
 
-##menu.option.none : none
-##menu.option.some : some
-##menu.option.lots : lots
-##menu.option.mandatory : only mandatory
-##menu.option.all : all
+##menu.option.none : 无
+##menu.option.some : 一些
+##menu.option.lots : 很多
+##menu.option.mandatory : 仅必须
+##menu.option.all : 全部
 
-##menu.power.weak : weak
-##menu.power.normal : normal
-##menu.power.tough : tough
-##menu.power.very_tough : very tough
+##menu.power.weak : 弱
+##menu.power.normal : 正常
+##menu.power.tough : 强
+##menu.power.very_tough : 很强
 
-##menu.option.very_easy : very easy
-##menu.option.easy : easy
-##menu.option.hard : hard
-##menu.option.very_hard : very hard
-##menu.option.impossible : impossible
-##menu.difficulty_score_despair : despair
-##menu.difficulty_score_ultimate_despair : ultimate despair
+##menu.option.very_easy : 很易
+##menu.option.easy : 容易
+##menu.option.hard : 困难
+##menu.option.very_hard : 很难
+##menu.option.impossible : 不可能
+##menu.difficulty_score_despair : 绝望
+##menu.difficulty_score_ultimate_despair : 极度绝望
 
-##menu.option.very_small : very small
-##menu.option.small : small
-##menu.option.big : big
+##menu.option.very_small : 很小
+##menu.option.small : 小
+##menu.option.big : 大
 
 ##menu.options.hint_mode : In-game tooltips
 ##menu.options.screen_buttons : Screen buttons
 ##menu.options.pause_speed_toggle : Disable FF on pause
-##menu.options.effects_volume : Effects volume
-##menu.options.music_volume : Music volume
-##menu.options.scroll_speed : Scroll speed
-##menu.options.edge_scroll_range : Edge scroll range
+##menu.options.effects_volume : 音效量
+##menu.options.music_volume : 音乐量
+##menu.options.scroll_speed : 滚动速度
+##menu.options.edge_scroll_range : 边滚动范围
 ##menu.options.large_diodes : Large diodes
 ##menu.options.larger_font : Larger font
 ##menu.options.show_fps : Show FPS

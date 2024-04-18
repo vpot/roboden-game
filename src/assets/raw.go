@@ -23,6 +23,11 @@ func RegisterRawResources(ctx *ge.Context) {
 		RawDictTutorialRu:     {Path: "raw/ru_intro.txt"},
 		RawDictAchievementsRu: {Path: "raw/ru_achievements.txt"},
 		RawDictDronesRu:       {Path: "raw/ru_drones.txt"},
+
+		RawDictCh:             {Path: "raw/ch.txt"},
+		RawDictTutorialCh:     {Path: "raw/ch_intro.txt"},
+		RawDictAchievementsCh: {Path: "raw/ch_achievements.txt"},
+		RawDictDronesCh:       {Path: "raw/ch_drones.txt"},
 	}
 
 	for id, res := range rawResources {
@@ -48,4 +53,9 @@ const (
 	RawDictTutorialRu
 	RawDictAchievementsRu
 	RawDictDronesRu
+
+	RawDictCh
+	RawDictTutorialCh
+	RawDictAchievementsCh
+	RawDictDronesCh
 )

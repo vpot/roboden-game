@@ -61,7 +61,7 @@ func inferDefaultLang() string {
 	selectedLanguage := ""
 	for _, l := range languages {
 		switch l {
-		case "en", "ru":
+		case "en", "ru", "ch":
 			if selectedLanguage != defaultLanguage {
 				selectedLanguage = l
 			}
